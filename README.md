@@ -313,7 +313,7 @@ Sometimes the classes are not in session so you have to wait a couple of months,
         - Many times, it’s not your technical competency that holds you back from landing your dream job, it’s how you perform on the behavioral interview.
 
 ## Pick One Language for the Interview
-
+***using Python***
 You can use a language you are comfortable in to do the coding part of the interview, but for large companies, these are solid choices:
 
 - C++
