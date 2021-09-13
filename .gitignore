@@ -2,6 +2,7 @@
 *.iml
 personal-9894.md
 
+/venv
 # Targets Windows & Unix temporary files
 ~$*
 *~
