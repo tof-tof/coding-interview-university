@@ -1,0 +1,25 @@
+input_file = "reenact_easy_input.txt"
+output_file = "reenact_easy_output.txt"
+with open(input_file, "r") as in_file, open(output_file,"w") as out_file:
+    input_lines = in_file.read().splitlines()
+    components = {}
+    curr_comp = None
+    comp_curating = True
+    for line in input_lines:
+        if line == "":
+            comp_curating = False
+            continue
+        if comp_curating:
+            if curr_comp == None:
+                curr_comp = line
+            elif line[0] == "=":
+               components[curr_comp] = line[3:]
+               curr_comp = None
+        else:
+            inst_commands = line.split()
+            comp = inst_commands[0][1:]
+            vars = {}
+            for var in inst_commands[1:-1]:
+                var_name, value = var.split("=")
+                vars[var_name] = value[1:-1]
+            out_file.write(components[comp].format(**vars)+"\n")

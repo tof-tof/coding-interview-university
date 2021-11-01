@@ -1,0 +1,12 @@
+Button
+text
+=> <button>{text}</button>
+Label
+text
+=> <span>{text}</span>
+MyComponent
+input1
+input2
+=> <div> Click this {input1} <Button text={input2}/> </div>
+
+<MyComponent input1=<Label text="fancy"/> input2=“link” />

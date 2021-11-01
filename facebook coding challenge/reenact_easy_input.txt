@@ -1,0 +1,108 @@
+BlueBoldButton
+=> <a>It's great </a>
+BlueWideImage
+target
+label
+history
+=> <div>It's great {target}, but {label}, nevertheless {history} </div>
+BlueSmallLink
+target
+label
+size
+width
+=> <button>It's great {target}, also {label}, even so {size}, and {width} </button>
+BlueTinyContainer
+=> <div>It's great </div>
+BlueMediumMenu
+label
+size
+width
+target
+=> <span>It's great {label}, furthermore {size}, also {width}, and {target} </span>
+BlueRectangleList
+history
+=> <button>It's great {history} </button>
+BlueBigSection
+size
+history
+label
+width
+=> <div>It's great {size}, but {history}, in addition to {label}, and {width} </div>
+BlueDoubleArticle
+history
+label
+=> <button>It's great {history}, and {label} </button>
+BlueTallButton
+target
+size
+label
+=> <button>It's great {target}, but {size}, even so {label} </button>
+BlueGreenImage
+size
+=> <button>It's great {size} </button>
+BlueMarqueeLink
+width
+=> <span>It's great {width} </span>
+BlueNotBoldContainer
+width
+=> <div>It's great {width} </div>
+BlueRedMenu
+history
+=> <div>It's great {history} </div>
+BoldBlueList
+history
+width
+label
+=> <span>It's great {history}, but {width}, in addition to {label} </span>
+
+<BlueSmallLink target="blue" label="short" size="long" width="slow" />
+<BlueRectangleList history="slow" />
+<BlueDoubleArticle history="short" label="blue" />
+<BlueMarqueeLink width="slow" />
+<BlueMarqueeLink width="short" />
+<BlueRedMenu history="short" />
+<BlueMediumMenu label="green" size="long" width="slow" target="short" />
+<BoldBlueList history="long" width="blue" label="quick" />
+<BlueSmallLink target="short" label="slow" size="green" width="long" />
+<BlueMarqueeLink width="slow" />
+<BlueNotBoldContainer width="long" />
+<BlueBigSection size="long" history="quick" label="short" width="slow" />
+<BoldBlueList history="long" width="quick" label="blue" />
+<BlueWideImage target="green" label="slow" history="short" />
+<BlueDoubleArticle history="short" label="blue" />
+<BlueRectangleList history="blue" />
+<BlueTallButton target="quick" size="green" label="short" />
+<BlueGreenImage size="green" />
+<BlueGreenImage size="short" />
+<BlueTallButton target="slow" size="green" label="quick" />
+<BlueWideImage target="blue" label="long" history="green" />
+<BlueMarqueeLink width="short" />
+<BlueRectangleList history="blue" />
+<BlueWideImage target="short" label="quick" history="blue" />
+<BlueBigSection size="long" history="slow" label="green" width="blue" />
+<BlueBigSection size="slow" history="quick" label="short" width="green" />
+<BlueTinyContainer  />
+<BlueSmallLink target="quick" label="short" size="green" width="slow" />
+<BlueDoubleArticle history="slow" label="quick" />
+<BlueRectangleList history="blue" />
+<BlueMediumMenu label="short" size="slow" width="quick" target="blue" />
+<BlueMarqueeLink width="long" />
+<BlueTinyContainer  />
+<BlueSmallLink target="blue" label="long" size="slow" width="quick" />
+<BlueRectangleList history="slow" />
+<BlueTinyContainer  />
+<BlueGreenImage size="slow" />
+<BlueTinyContainer  />
+<BlueNotBoldContainer width="slow" />
+<BlueMediumMenu label="green" size="slow" width="quick" target="long" />
+<BlueBigSection size="long" history="quick" label="slow" width="green" />
+<BlueMediumMenu label="quick" size="blue" width="slow" target="short" />
+<BlueBigSection size="green" history="blue" label="slow" width="short" />
+<BlueBigSection size="green" history="quick" label="long" width="slow" />
+<BlueSmallLink target="short" label="slow" size="quick" width="long" />
+<BlueRedMenu history="long" />
+<BlueBigSection size="green" history="long" label="short" width="blue" />
+<BlueDoubleArticle history="short" label="quick" />
+<BlueTallButton target="long" size="short" label="green" />
+<BlueWideImage target="green" label="blue" history="quick" />
+<BlueMediumMenu label="long" size="slow" width="short" target="quick" />

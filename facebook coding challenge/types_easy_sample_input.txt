@@ -1,0 +1,11 @@
+(type even (int -> bool))
+(type odd  (int -> bool))
+
+(func (even n) (if (= n 0) true  (odd  (- n 1))))
+(func (odd n)  (if (= n 0) false (even (- n 1))))
+
+(type fib (int -> int))
+(type helper (int int int -> int))
+
+(func (fib n) (helper 0 1 (+ n 1)))
+(func (helper n a b) (if (= n 0) a (helper (- n 1) a (+ a b))))

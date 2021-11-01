@@ -1,0 +1,10 @@
+BlueBoldButton
+=> <a>It's great </a>
+BlueWideImage
+target
+label
+history
+=> <div>It's great {target}, but {label}, nevertheless {history} </div>
+
+<BlueBoldButton />
+<BlueWideImage target="fun" label="slow" history="enjoyable" />

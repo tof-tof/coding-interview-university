@@ -1,0 +1,124 @@
+WideRectangleArticle
+label
+=> <button>It's great <MarqueeBlueMenu width="blue" label="green" history=<MarqueeBlueMenu width="short" label="long" history="green" target="slow" /> target=<MarqueeSmallSection target="blue" history="short" /> />, nevertheless <MarqueeRectangleImage label="blue" size=<MarqueeSmallSection target="slow" history="long" /> width=<MarqueeMediumList label="long" size="slow" width="green" target="blue" /> />, and <MarqueeGreenLink label="green" size="blue" history=<MarqueeMediumList label={label} size="long" width="slow" target="short" /> />, also <WideMarqueeButton width="quick" label={label} size="short" />, but {label} </button>
+MarqueeRedImage
+=> <div>It's great </div>
+WideBoldList
+width
+history
+label
+size
+=> <div>It's great {label}, also <WideMarqueeButton width="slow" label=<MarqueeBlueMenu width={history} label="long" history={width} target="green" /> size={label} />, in addition to <MarqueeRectangleImage label=<MarqueeBlueMenu width="short" label="quick" history="slow" target="blue" /> size="short" width=<MarqueeRectangleImage label="green" size="quick" width={size} /> />, even so {size}, and {history}, nevertheless <WideRedArticle size="slow" history={size} target="green" />, but {width} </div>
+WideBlueContainer
+label
+history
+target
+=> <button>It's great {label}, even so {history}, nevertheless {target} </button>
+WideTinyMenu
+label
+=> <span>It's great <MarqueeMediumList label="slow" size=<WideNotBoldContainer  /> width=<MarqueeSmallSection target="slow" history={label} /> target=<MarqueeGreenLink label={label} size="slow" history="short" /> />, in addition to {label}, but <MarqueeSmallSection target={label} history=<WideRedArticle size="green" history={label} target="quick" /> /> </span>
+WideNotBoldContainer
+=> <a>It's great </a>
+MarqueeWideList
+label
+history
+width
+=> <span>It's great {label}, even so {width}, furthermore {history} </span>
+MarqueeTinyButton
+history
+=> <span>It's great {history} </span>
+MarqueeNotBoldMenu
+size
+=> <a>It's great {size} </a>
+MarqueeMediumList
+label
+size
+width
+target
+=> <div>It's great {size}, even so <MarqueeDoubleContainer width=<MarqueeBoldSection history={size} size={width} label={label} target="quick" /> />, and {width}, in addition to {label}, nevertheless {target} </div>
+WideMediumButton
+label
+=> <a>It's great <WideNotBoldContainer  />, also <MarqueeSmallSection target="blue" history="long" />, even so <MarqueeBlueMenu width=<MarqueeMediumList label="blue" size="long" width="short" target={label} /> label=<WideMarqueeButton width="short" label="blue" size="long" /> history="blue" target=<WideRedArticle size="blue" history="short" target={label} /> />, furthermore {label}, in addition to <MarqueeRectangleImage label="long" size=<MarqueeSmallSection target="quick" history="green" /> width="blue" /> </a>
+MarqueeBigLink
+size
+history
+=> <div>It's great {history}, in addition to {size} </div>
+MarqueeGreenLink
+label
+size
+history
+=> <div>It's great <MarqueeDoubleContainer width={label} />, in addition to {history}, even so <MarqueeTallArticle  />, nevertheless <MarqueeTinyButton history="blue" />, and {size}, also {label}, furthermore <MarqueeBigLink size="blue" history=<MarqueeRedImage  /> /> </div>
+MarqueeRectangleImage
+label
+size
+width
+=> <button>It's great {size}, nevertheless {label}, and {width}, even so <MarqueeNotBoldMenu size=<MarqueeRedImage  /> /> </button>
+MarqueeSmallSection
+target
+history
+=> <div>It's great {target}, also {history} </div>
+MarqueeDoubleContainer
+width
+=> <div>It's great {width} </div>
+WideRedArticle
+size
+history
+target
+=> <div>It's great {target}, but <MarqueeBigLink size="slow" history="short" />, furthermore {size}, even so <MarqueeBoldSection history="blue" size=<MarqueeDoubleContainer width="short" /> label=<MarqueeBigLink size="quick" history="long" /> target="quick" />, and <MarqueeTinyButton history=<MarqueeBigLink size="long" history={size} /> />, nevertheless <MarqueeNotBoldMenu size=<MarqueeBoldSection history="short" size={size} label={history} target="green" /> />, also {history} </div>
+MarqueeBlueMenu
+width
+label
+history
+target
+=> <a>It's great <MarqueeTinyButton history=<MarqueeBoldSection history="slow" size="green" label={width} target="blue" /> />, but {label}, in addition to {width}, even so <MarqueeWideList label="short" history=<MarqueeTinyButton history="quick" /> width={target} />, and {target}, furthermore <MarqueeDoubleContainer width="slow" />, also {history} </a>
+WideBigImage
+label
+size
+width
+history
+=> <div>It's great <MarqueeRectangleImage label={size} size={width} width="long" />, also {width}, nevertheless {label}, but {history}, and {size} </div>
+MarqueeBoldSection
+history
+size
+label
+target
+=> <div>It's great {target}, but {history}, nevertheless {label}, in addition to {size} </div>
+WideDoubleLink
+history
+width
+=> <button>It's great <MarqueeRectangleImage label="blue" size="quick" width=<MarqueeMediumList label={width} size={history} width="green" target="short" /> />, nevertheless <MarqueeGreenLink label=<MarqueeSmallSection target={width} history={history} /> size=<MarqueeRectangleImage label="quick" size="green" width={history} /> history="blue" />, in addition to <WideNotBoldContainer  />, but <MarqueeSmallSection target=<MarqueeBlueMenu width="quick" label={width} history="slow" target="blue" /> history=<MarqueeMediumList label="blue" size={width} width="slow" target="quick" /> />, also {history}, and {width} </button>
+WideMarqueeButton
+width
+label
+size
+=> <span>It's great <MarqueeBoldSection history=<MarqueeBigLink size="long" history={size} /> size={label} label=<MarqueeDoubleContainer width="slow" /> target={width} />, in addition to {size}, even so {width}, nevertheless <MarqueeDoubleContainer width={label} />, also <MarqueeWideList label=<MarqueeNotBoldMenu size="long" /> history="blue" width={width} />, but {label} </span>
+WideTallSection
+history
+=> <span>It's great {history} </span>
+MarqueeTallArticle
+=> <a>It's great </a>
+
+<MarqueeNotBoldMenu size="short" />
+<MarqueeTinyButton history=<MarqueeTallArticle  /> />
+<MarqueeTinyButton history="long" />
+<WideMarqueeButton width="quick" label="long" size="green" />
+<WideBigImage label=<MarqueeTinyButton history="quick" /> size=<MarqueeNotBoldMenu size="quick" /> width=<MarqueeBoldSection history="green" size="blue" label="quick" target="long" /> history="slow" />
+<WideDoubleLink history="quick" width=<MarqueeTinyButton history="short" /> />
+<WideMediumButton label=<MarqueeRedImage  /> />
+<MarqueeBlueMenu width=<MarqueeWideList label="short" history="blue" width="quick" /> label=<MarqueeNotBoldMenu size="blue" /> history=<MarqueeRedImage  /> target=<MarqueeDoubleContainer width="slow" /> />
+<MarqueeRedImage  />
+<MarqueeSmallSection target=<MarqueeDoubleContainer width="short" /> history=<MarqueeTinyButton history="blue" /> />
+<WideDoubleLink history="long" width=<MarqueeDoubleContainer width="blue" /> />
+<MarqueeRedImage  />
+<MarqueeBigLink size=<MarqueeBoldSection history="green" size="slow" label="long" target="blue" /> history=<MarqueeBigLink size="quick" history="slow" /> />
+<MarqueeDoubleContainer width=<MarqueeNotBoldMenu size="slow" /> />
+<MarqueeTallArticle  />
+<MarqueeRedImage  />
+<WideRectangleArticle label=<MarqueeTallArticle  /> />
+<WideBigImage label="short" size="slow" width=<MarqueeTallArticle  /> history=<MarqueeTinyButton history="quick" /> />
+<MarqueeRedImage  />
+<WideMediumButton label=<MarqueeRedImage  /> />
+<MarqueeDoubleContainer width="slow" />
+<WideRectangleArticle label="short" />
+<MarqueeTallArticle  />
+<MarqueeRectangleImage label="blue" size=<MarqueeTallArticle  /> width=<MarqueeRedImage  /> />
